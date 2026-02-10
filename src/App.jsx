@@ -1,10 +1,12 @@
 import React from "react";
-import Counter from "./Counter";
+import ToggleSwitch from "./ToggleSwitch";
+//import Counter from "./Counter";
 
 function App() {
   return (
     <div>
-      <Counter />
+      {/* <Counter /> */}
+      <ToggleSwitch />
     </div>
   );
 }
