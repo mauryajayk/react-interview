@@ -1,5 +1,6 @@
 import React from "react";
-import ApiData from "./ApiData";
+import SearchBar from "./SearchBar";
+//import ApiData from "./ApiData";
 //import DataFetch from "./DataFetch";
 //import ToggleSwitch from "./ToggleSwitch";
 //import ToDoList from "./ToDoList";
@@ -8,14 +9,15 @@ import ApiData from "./ApiData";
 
 
 function App() {
+  const items = ["Apple", "Banana", "Grapes", "Mango"];
   return (
     <div>
       {/* <Counter /> */}
       {/* <ToggleSwitch /> */}
       {/* <ToDoList /> */}
       {/* <DataFetch /> */}
-      <ApiData />
-      
+      {/* <ApiData /> */}
+      <SearchBar items={items} />
     </div>
   );
 }
