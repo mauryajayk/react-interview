@@ -1,5 +1,6 @@
 import React from "react";
-import DarkMode from "./Darkmode";
+import DropdownMenu from "./DropdownMenu";
+//import DarkMode from "./Darkmode";
 //import SearchBar from "./SearchBar";
 //import ApiData from "./ApiData";
 //import DataFetch from "./DataFetch";
@@ -12,6 +13,7 @@ import DarkMode from "./Darkmode";
 
 function App() {
   // const items = ["Apple", "Banana", "Grapes", "Mango"];
+  const items = ['Profile', 'Settings', 'Logout'];
   return (
     <div>
       {/* <Counter /> */}
@@ -20,7 +22,8 @@ function App() {
       {/* <DataFetch /> */}
       {/* <ApiData /> */}
       {/* <SearchBar items={items} /> */}
-      <DarkMode />
+      {/* <DarkMode /> */}
+      <DropdownMenu items={items} />
     </div>
   );
 }
