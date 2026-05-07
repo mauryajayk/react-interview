@@ -1,5 +1,6 @@
 import React from "react";
-import SearchBar from "./SearchBar";
+import DarkMode from "./Darkmode";
+//import SearchBar from "./SearchBar";
 //import ApiData from "./ApiData";
 //import DataFetch from "./DataFetch";
 //import ToggleSwitch from "./ToggleSwitch";
@@ -8,8 +9,9 @@ import SearchBar from "./SearchBar";
 
 
 
+
 function App() {
-  const items = ["Apple", "Banana", "Grapes", "Mango"];
+  // const items = ["Apple", "Banana", "Grapes", "Mango"];
   return (
     <div>
       {/* <Counter /> */}
@@ -17,7 +19,8 @@ function App() {
       {/* <ToDoList /> */}
       {/* <DataFetch /> */}
       {/* <ApiData /> */}
-      <SearchBar items={items} />
+      {/* <SearchBar items={items} /> */}
+      <DarkMode />
     </div>
   );
 }
